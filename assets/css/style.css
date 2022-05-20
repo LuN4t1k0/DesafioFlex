@@ -51,6 +51,25 @@
     
 }
 
+.left-card-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    height: 10vh;
+}
+.card-btn{
+
+
+}
+
+.btn{
+    background-color: orange;
+    height: 5em;
+    width: 60%;
+}
+
 .avatar {
     vertical-align: middle;
     width: 70px;
@@ -91,3 +110,4 @@
 .hands {
     width: 50%;
 } 
+
