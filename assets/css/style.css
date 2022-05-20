@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.flex-container {
+    display: flex;
+    background-color: brown;
+    height: 100vh;
+}
+
+.left{
+    background-color: bisque;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.left-card{
+    height: 10vh;
+    border: 0.5px solid black;
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    background-color: aquamarine;
+
+}
+.card-detail{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card-img{
+    background-color: blue;
+    padding-left: 2em;
+    padding-right: 1.5em;
+    
+}
+.card-text{
+    background-color: blueviolet;
+
+    
+   
+}
+.card-subtext{
+    background-color: yellowgreen;
+    
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.right{
+    background-color: cadetblue;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container-right{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-item-right-img{
+    background-color: blue;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.flex-item-right-text{
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hands {
+    width: 50%;
+} 
